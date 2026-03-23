@@ -70,6 +70,5 @@ medivision/
 - U-Net model: `medvision training/unet/best_model(1).keras`
 
 ## Notes
-
 - Large model files are tracked with Git LFS.
 - Dataset image archives are excluded from git to keep repository size manageable.
