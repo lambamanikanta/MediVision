@@ -20,18 +20,11 @@ build/
 # Jupyter artifacts
 *.ipynb_checkpoints
 
-# Model and large binary artifacts
-*.pth
-*.pt
-*.keras
-*.h5
-*.onnx
-*.pkl
-*.joblib
-*.npy
-*.npz
-
 # Local datasets / experiments
 medvision backend/archive/
-medvision training/
+medvision training/vit/archive/
+
+# Keep backend heavyweight local model copies out of git
+medvision backend/best_model.pth
+medvision backend/best_model(1).keras
 
